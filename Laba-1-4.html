@@ -1,0 +1,32 @@
+<html>
+<body>
+	<script>
+		class NewClass
+		{
+			title;
+			url;
+			
+			constructor (nTitle, nUrl)
+			{
+				this.title = nTitle;
+				this.url = nUrl;
+			}
+			
+			show()
+			{
+				document.write (this.title + " " + this.url + "<br>");
+			}
+		}
+		
+		const nc1 = new NewClass();
+		nc1.title = " Google ";
+		nc1.url = " https://google.com/ ";
+		nc1.show();
+		
+		const nc2 = new NewClass();
+		nc2.title = " Yandex ";
+		nc2.url = " https://ya.ru/ ";
+		nc2.show();
+	</script>
+</body>
+</html>
